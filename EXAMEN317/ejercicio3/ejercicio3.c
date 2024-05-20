@@ -21,8 +21,8 @@ int main() {
         }
     }
 
-    printf("Multiplicacion en base a sumas: %d\n", multiplicacion);
-    printf("Division en base a restas: %d\n", division);
+    printf("Multiplicacion sumas: %d\n", multiplicacion);
+    printf("Division restas: %d\n", division);
 
     return 0;
 }
