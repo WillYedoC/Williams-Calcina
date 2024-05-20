@@ -1,0 +1,15 @@
+OPENMP: SIMD (Single Instruction, Multiple Data)
+OPENMP se basa en la ejecución de múltiples hilos que ejecutan la misma instrucción en diferentes 
+conjuntos de datos simultáneamente en sistemas de memoria compartida, lo que corresponde a la clasificación SIMD.
+
+MPI: MIMD (Multiple Instruction, Multiple Data)
+MPI permite que múltiples procesos ejecuten instrucciones independientes y 
+trabajen con datos distintos, comunicándose a través de paso de mensajes en sistemas distribuidos. 
+Cada proceso puede ejecutar diferentes instrucciones en diferentes conjuntos de datos de manera independiente, 
+lo que se alinea con la clasificación MIMD.
+
+Multiprocessing: Puede clasificarse como SIMD o MIMD según la implementación.
+Si los procesadores comparten la misma memoria y trabajan en conjunto para realizar operaciones 
+en paralelo sobre un único conjunto de datos, se clasificaría como SIMD (similar a OPENMP).
+Si los procesadores tienen su propia memoria y operan de manera independiente, ejecutando 
+diferentes instrucciones en diferentes conjuntos de datos, se clasificaría como MIMD (similar a MPI).
